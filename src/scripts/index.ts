@@ -7,4 +7,4 @@ import oneNotification from "./one-notification";
 
 export default oneNotification;
 
-export { oneObjectToStyle, oneInject, oneTemplate };
+export { oneObjectToStyle, oneTemplate, oneInject };
