@@ -20,6 +20,8 @@
   "module": "dist/one-notification.esm.min.js",
   "typings": "dist/index.d.ts",
   "style": "dist/one-notification.min.css",
+  "browser": "dist/one-notification.min.js",
+  "unpkg": "dist/one-notification.min.js",
   "scripts": {
     "build": "npx rollup --config rollup.config.js",
     "lint": "eslint . --ext .ts --fix",

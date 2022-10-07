@@ -27,6 +27,12 @@
 npm install one-notification
 ```
 
+Or in the browser you can include the script from UNPKG
+
+```html
+<script src="https://unpkg.com/one-notification"></script>
+```
+
 # Usage
 
 ```JavaScript
@@ -34,8 +40,7 @@ import oneNotification from "one-notification";
 import "one-notification/dist/one-notification.min.css";
 
 oneNotification({
-  text: "Hi there! One notification is here",
-  icon: "<i class='ph-smiley-fill'></i>"
+  /* configuration */
 });
 ```
 
