@@ -5,3 +5,4 @@ dist
 miscellaneous
 rollup.config.js
 *.config.js
+coverage
