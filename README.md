@@ -27,7 +27,7 @@
 npm install one-notification
 ```
 
-Or in browser you can include the script from UNPKG
+Or in browser you can include the script from UNPKG:
 
 ```html
 <script src="https://unpkg.com/one-notification"></script>
