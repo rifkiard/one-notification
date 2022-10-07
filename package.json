@@ -23,7 +23,7 @@
   "scripts": {
     "build": "npx rollup --config rollup.config.js",
     "lint": "eslint . --ext .ts --fix",
-    "test": "jest"
+    "test": "jest --ci --coverage --maxWorkers=2"
   },
   "files": [
     "dist",
