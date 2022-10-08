@@ -27,9 +27,10 @@
 npm install one-notification
 ```
 
-Or in browser you can include the script from UNPKG:
+Or in browser you can use One Notification with UNPKG:
 
 ```html
+<link rel="stylesheet" href="https://unpkg.com/one-notification/dist/one-notification.min.css">
 <script src="https://unpkg.com/one-notification"></script>
 ```
 
@@ -51,7 +52,8 @@ There are some configuration properties that you can pass into the function para
 |key|type|required|default|description|
 |-|-|-|-|-|
 |text|`string`|required||Text that displayed on notification|
-|icon|`string`|required||Icon that displayed on notification|
+|icon|`string`|required||Icon that displayed on notification (You can use text, or HTML tag)|
+|onClick|`function`|||A function that fired when notification is clicked|
 |iconSize|`number`||21|Icon size in pixels|
 |iconColor|`string`||#FFFFFF|Icon color|
 |iconBackgroundSize|`number`||42|Icon background size in pixels|

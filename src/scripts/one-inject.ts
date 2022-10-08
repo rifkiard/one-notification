@@ -11,4 +11,10 @@ export default function oneInject(
   document
     .getElementsByTagName("body")[0]
     .insertAdjacentHTML("beforeend", oneTemplate(configuration));
+
+  if (typeof configuration.onClick === "function") {
+    (
+      document.getElementsByClassName("one_notification")[0] as HTMLElement
+    ).onclick = configuration.onClick;
+  }
 }

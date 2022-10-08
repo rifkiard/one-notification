@@ -1,6 +1,7 @@
 interface OneNotificatioConfiguration {
   text: string;
   icon: string;
+  onClick?: () => never;
   iconSize?: number;
   iconColor?: string;
   iconBackgroundSize?: number;
